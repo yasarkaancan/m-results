@@ -1,0 +1,7 @@
+version,model,OCR word recall %,correct,other number,invented,abstains
+original,224,52.1,44,8,48,0
+original,448,86.2,79,11,9,1
+degraded,224,13.2,14,1,49,36
+degraded,448,23.0,26,2,35,37
+erased,224,,0,15,62,1
+erased,448,,3,53,17,5

@@ -1,0 +1,3150 @@
+model,idx,version,prompt,output,seconds,word_recall,label,true_total,in_table
+224,0,original,ocr,"CINE
+CINE
+CINE
+CINE
+CINE
+CINE
+CINE
+CINE
+CINE
+CINE
+CINE
+CINE
+CINE
+CINE
+CINE
+CINE
+CINE
+CINE
+CINE
+CINE
+CINE
+CINE
+CINE
+CINE
+CINE
+CINE
+CINE
+CINE
+CINE
+CINE
+CINE
+CINE
+CINE
+CINE
+CINE
+CINE
+CINE
+CINE
+CINE
+CINE
+CINE
+CINE
+CINE
+CINE
+CINE
+CINE
+CINE
+CINE
+CINE
+CINE
+CINE
+CINE
+CINE
+C",11.56,0.0,,60.000,True
+224,0,original,total_en,"60,000",0.79,,correct,60.000,True
+224,0,original,total_tr,60.000,0.79,,correct,60.000,True
+224,0,degraded,ocr,..,0.53,0.0,,60.000,True
+224,0,degraded,total_en,unanswerable,0.64,,abstains,60.000,True
+224,0,degraded,total_tr,unanswerable,0.62,,abstains,60.000,True
+224,0,erased,total_en,60.00,0.74,,invented,60.000,False
+224,0,erased,total_tr,60.00,0.74,,invented,60.000,False
+224,1,original,ocr,"J.STB PROMO
+17500
+V.BABAT
+46000
+V.BASO PROM
+7500
+TOTAL
+91000
+91000
+CASH",3.02,0.75,,91000,True
+224,1,original,total_en,910.00,0.82,,correct,91000,True
+224,1,original,total_tr,910.00,0.82,,correct,91000,True
+224,1,degraded,ocr,"17500
+J-218 PROMO
+V-13341
+45000
+75000
+SALE FROM
+TOTAL
+91000
+91000
+CASH",3.13,0.5,,91000,True
+224,1,degraded,total_en,910.00,0.80,,correct,91000,True
+224,1,degraded,total_tr,910.00,0.81,,correct,91000,True
+224,1,erased,total_en,27500,0.76,,other number,91000,True
+224,1,erased,total_tr,27500,0.76,,other number,91000,True
+224,2,original,ocr,"74,000
+TOTAL BILLI
+20,000
+1
+20,000
+2013
+20,000
+TOTAL BILLI
+100,000
+TOTAL BILLI
+17,000
+BALANCE
+ORDER NO: 102",4.14,0.21739130434782608,,"28,000",True
+224,2,original,total_en,"100,000",0.87,,other number,"28,000",True
+224,2,original,total_tr,129.00,0.82,,invented,"28,000",True
+224,2,degraded,ocr,unanswerable,0.64,0.0,,"28,000",True
+224,2,degraded,total_en,unanswerable,0.68,,abstains,"28,000",True
+224,2,degraded,total_tr,unanswerable,0.68,,abstains,"28,000",True
+224,2,erased,total_en,"4,000",0.78,,other number,"28,000",True
+224,2,erased,total_tr,"41,00",0.79,,invented,"28,000",True
+224,3,original,ocr,"D
+BAKERY & CAFE
+NATURAL
+#11000
+1X
+11,000
+DONAT GULA
+1.00x1TENS
+11,000
+SUM/TOTAL
+11,000
+TOTAL
+11,000
+CASH",4.01,0.8333333333333334,,"11,000",True
+224,3,original,total_en,"11,000",0.84,,correct,"11,000",True
+224,3,original,total_tr,"11,000",0.85,,correct,"11,000",True
+224,3,degraded,ocr,"11.000
+TOTAL
+11.000
+CASH",1.41,0.3333333333333333,,"11,000",True
+224,3,degraded,total_en,11.00,0.80,,invented,"11,000",True
+224,3,degraded,total_tr,11.00,0.80,,invented,"11,000",True
+224,3,erased,total_en,"11,000",0.86,,correct,"11,000",False
+224,3,erased,total_tr,"11,000",0.86,,correct,"11,000",False
+224,4,original,ocr,"19021
+1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",8.82,0.0,,"174,600",True
+224,4,original,total_en,12.00,0.83,,invented,"174,600",True
+224,4,original,total_tr,65.00,0.83,,invented,"174,600",True
+224,4,degraded,ocr,3,0.62,0.0,,"174,600",True
+224,4,degraded,total_en,unanswerable,0.73,,abstains,"174,600",True
+224,4,degraded,total_tr,unanswerable,0.74,,abstains,"174,600",True
+224,4,erased,total_en,1,0.63,,other number,"174,600",True
+224,4,erased,total_tr,41.00,0.90,,invented,"174,600",True
+224,5,original,ocr,"TRND KY TOAST CART2
+28 182
+2019-01-15 18:10
+25 000
+TOTAL
+21 000
+TOTAL
+21 000
+TOTAL
+21 000",3.97,0.1875,,31.000,True
+224,5,original,total_en,31.00,0.85,,invented,31.000,True
+224,5,original,total_tr,"31,00",0.86,,invented,31.000,True
+224,5,degraded,ocr,"TRND KY TOAST CARTZ
+29-182
+2.00
+TOTAL
+21.000
+21.000
+CASH",2.51,0.25,,31.000,True
+224,5,degraded,total_en,"31,000",0.93,,correct,31.000,True
+224,5,degraded,total_tr,"31,000",0.92,,correct,31.000,True
+224,5,erased,total_en,38.19,0.86,,invented,31.000,True
+224,5,erased,total_tr,"39,187",0.91,,invented,31.000,True
+224,6,original,ocr,"13,000
+1. 300 PART
+13,000
+2. CHOCO CUT AND PASTRY
+9,000
+1. REDBEAN BREAD
+9,000
+46,000
+TOTAL
+30,000
+4,000
+CHANGE",4.42,0.6842105263157895,,"46,000",True
+224,6,original,total_en,"46,000",0.96,,correct,"46,000",True
+224,6,original,total_tr,"46,000",0.97,,correct,"46,000",True
+224,6,degraded,ocr,"46,000
+TOTAL
+4,000
+CHANCE",1.54,0.15789473684210525,,"46,000",True
+224,6,degraded,total_en,"46,000",0.98,,correct,"46,000",True
+224,6,degraded,total_tr,"46,000",0.99,,correct,"46,000",True
+224,6,erased,total_en,20.00,0.94,,invented,"46,000",True
+224,6,erased,total_tr,23.00,0.94,,invented,"46,000",True
+224,7,original,ocr,"Kueen 15
+100,000
+ADD CHICKEN BOX
+900
+Sub-total
+100,009
+Total
+10,091
+113,000
+Cash
+Rp.113,000",4.01,0.5625,,"111,000",True
+224,7,original,total_en,"113,000",1.09,,invented,"111,000",True
+224,7,original,total_tr,"113,00",1.03,,invented,"111,000",True
+224,7,degraded,ocr,-,0.77,0.0,,"111,000",True
+224,7,degraded,total_en,unanswerable,0.89,,abstains,"111,000",True
+224,7,degraded,total_tr,unanswerable,0.89,,abstains,"111,000",True
+224,7,erased,total_en,100.00,1.05,,invented,"111,000",True
+224,7,erased,total_tr,"109,00",1.05,,invented,"111,000",True
+224,8,original,ocr,"1 [REG] BLACK SAKURA 1 COOKIE DOUGH SAUCES 1 NATA DE COCO
+45.455
+0
+0
+Sub Total
+45.455
+PBN (10%)
+4.545
+Discount
+0
+Total
+50.000
+Total
+50.000
+Card Payment
+...",5.09,0.8928571428571429,,"50,000",True
+224,8,original,total_en,"50,000",1.01,,correct,"50,000",True
+224,8,original,total_tr,"50,000",1.01,,correct,"50,000",True
+224,8,degraded,ocr,"45.405
+1 PREQU BLACK SAKURA 1 COCONUT DORY SAUCE 1 MATA DE COCO
+0
+45.405
+Sub Total
+45.405
+PBI (10%)
+0
+Total
+50.000
+50.000
+Card Payment",4.67,0.6071428571428571,,"50,000",True
+224,8,degraded,total_en,50.00,0.91,,invented,"50,000",True
+224,8,degraded,total_tr,50.000,0.96,,correct,"50,000",True
+224,8,erased,total_en,45.45,0.90,,invented,"50,000",True
+224,8,erased,total_tr,45.45,0.90,,invented,"50,000",True
+224,10,original,ocr,"Auntie Anne's
+CINNAMON SUGAR
+1
+x 17,000
+17,000
+SUB TOTAL
+17,000
+GRAND TOTAL
+17,000
+CASH IDR
+20,000
+CHANGE DUE
+3,000",4.17,0.6153846153846154,,"17,000",True
+224,10,original,total_en,30.00,0.87,,other number,"17,000",True
+224,10,original,total_tr,17000,0.88,,correct,"17,000",True
+224,10,degraded,ocr,Auntie Anne's,0.87,0.0,,"17,000",True
+224,10,degraded,total_en,unanswerable,0.76,,abstains,"17,000",True
+224,10,degraded,total_tr,37.00,0.88,,invented,"17,000",True
+224,10,erased,total_en,17.00,0.88,,invented,"17,000",False
+224,10,erased,total_tr,17.000,0.93,,correct,"17,000",False
+224,11,original,ocr,"1 RAMBERRY FRESH CREAM SAT 2013-06-08 20:00:00
+230,000
+TOTAL
+230,000
+0
+CHANGE",3.09,0.6666666666666666,,"230,000",True
+224,11,original,total_en,230.00,0.91,,invented,"230,000",True
+224,11,original,total_tr,230.00,0.92,,invented,"230,000",True
+224,11,degraded,ocr,24,0.70,0.0,,"230,000",True
+224,11,degraded,total_en,unanswerable,0.76,,abstains,"230,000",True
+224,11,degraded,total_tr,unanswerable,0.75,,abstains,"230,000",True
+224,11,erased,total_en,25,0.71,,invented,"230,000",False
+224,11,erased,total_tr,250.00,0.90,,invented,"230,000",False
+224,12,original,ocr,"29
+0571-1854 ALBA MALTA
+120,000
+#120,000 02
+1000-1000 0000000000
+1
+0
+#880 1000
+120,000
+TOTAL (2 items)
+120,000
+DISCOUNT
+0
+Total Payable
+0",6.00,0.5652173913043478,,"120,000",True
+224,12,original,total_en,130.00,0.91,,invented,"120,000",True
+224,12,original,total_tr,"130,00",0.92,,invented,"120,000",True
+224,12,degraded,ocr,2,0.64,0.043478260869565216,,"120,000",True
+224,12,degraded,total_en,unanswerable,0.77,,abstains,"120,000",True
+224,12,degraded,total_tr,unanswerable,0.76,,abstains,"120,000",True
+224,12,erased,total_en,170.00,0.93,,invented,"120,000",False
+224,12,erased,total_tr,"1,29",0.82,,invented,"120,000",False
+224,13,original,ocr,"NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG",8.96,0.0,,51.300,True
+224,13,original,total_en,"51,500",0.97,,invented,51.300,True
+224,13,original,total_tr,"51,20",0.89,,invented,51.300,True
+224,13,degraded,ocr,LOCK,0.68,0.0,,51.300,True
+224,13,degraded,total_en,18.00,0.91,,invented,51.300,True
+224,13,degraded,total_tr,20.00,0.91,,invented,51.300,True
+224,13,erased,total_en,"40,000",0.97,,invented,51.300,True
+224,13,erased,total_tr,"43,00",0.92,,invented,51.300,True
+224,14,original,ocr,"1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1",9.17,0.15,,"281,435",True
+224,14,original,total_en,654.00,1.01,,invented,"281,435",True
+224,14,original,total_tr,793.69,1.01,,invented,"281,435",True
+224,14,degraded,ocr,"10,000
+10,000
+10,000
+10,000
+10,000
+10,000
+10,000
+10,000
+10,000
+10,000
+10,000
+10,000
+10,000
+10,000
+10,000
+10,000
+10,000
+10,000
+10,000
+10,000
+10,000
+10,000
+10,000",9.15,0.0,,"281,435",True
+224,14,degraded,total_en,671.90,0.97,,invented,"281,435",True
+224,14,degraded,total_tr,281.35,0.96,,invented,"281,435",True
+224,14,erased,total_en,37.00,0.92,,invented,"281,435",True
+224,14,erased,total_tr,"37,00",0.92,,invented,"281,435",True
+224,15,original,ocr,"XXI cafe
+Lemon Tea (L)
+1
+25,000
+1 Caramel Small
+38,000
+63,000
+TOTAL
+CASH
+70,000
+7,000
+CHANGED",3.47,1.0,,63.000,True
+224,15,original,total_en,63.00,0.90,,invented,63.000,True
+224,15,original,total_tr,63.00,0.90,,invented,63.000,True
+224,15,degraded,ocr,XXI cafe,0.73,0.0,,63.000,True
+224,15,degraded,total_en,8.88,0.85,,invented,63.000,True
+224,15,degraded,total_tr,8.00,0.85,,invented,63.000,True
+224,15,erased,total_en,38.00,0.88,,invented,63.000,True
+224,15,erased,total_tr,38.00,0.88,,invented,63.000,True
+224,16,original,ocr,"1 (L.O.) BLACK SAKURA
+59,084
+1 L.O.NGAN
+5
+1 M.S.S.O. ALMOND
+5
+1 M.S.S.O.
+4,545
+1 M/INERAL WATER (binding) 5k
+4,545
+Sub Total
+63,838
+(Tax)
+1,800
+(Tax)
+70,000
+Total
+Cash Payment
+100,000
+Cash Back
+10,000
+...",7.51,0.5277777777777778,,"70,000",True
+224,16,original,total_en,"70,000",0.94,,correct,"70,000",True
+224,16,original,total_tr,70.000,0.92,,correct,"70,000",True
+224,16,degraded,ocr,75.000,0.92,0.0,,"70,000",True
+224,16,degraded,total_en,19.80,0.88,,invented,"70,000",True
+224,16,degraded,total_tr,75.00,0.87,,invented,"70,000",True
+224,16,erased,total_en,458,0.77,,invented,"70,000",True
+224,16,erased,total_tr,458.49,0.93,,invented,"70,000",True
+224,17,original,ocr,"유진
+게임
+20,000
+Black's Magic
+1
+15,000
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1",8.98,0.13513513513513514,,"Rp. 91,000",True
+224,17,original,total_en,"$1,909",0.92,,invented,"Rp. 91,000",True
+224,17,original,total_tr,"97,00",0.87,,invented,"Rp. 91,000",True
+224,17,degraded,ocr,"식당
+역통",0.89,0.0,,"Rp. 91,000",True
+224,17,degraded,total_en,unanswerable,0.77,,abstains,"Rp. 91,000",True
+224,17,degraded,total_tr,unanswerable,0.78,,abstains,"Rp. 91,000",True
+224,17,erased,total_en,129.97,0.93,,invented,"Rp. 91,000",True
+224,17,erased,total_tr,129.97,0.92,,invented,"Rp. 91,000",True
+224,18,original,ocr,"Propolis Car 1
+156000
+156000
+Sub Total
+156000
+Tuna
+156000
+Rp. 0
+Kembalian",3.09,0.6363636363636364,,156000,True
+224,18,original,total_en,158000,0.94,,invented,156000,True
+224,18,original,total_tr,158000,0.95,,invented,156000,True
+224,18,degraded,ocr,-,0.69,0.0,,156000,True
+224,18,degraded,total_en,unanswerable,0.80,,abstains,156000,True
+224,18,degraded,total_tr,unanswerable,0.80,,abstains,156000,True
+224,18,erased,total_en,150000,0.96,,invented,156000,False
+224,18,erased,total_tr,156000,0.96,,correct,156000,False
+224,19,original,ocr,"N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N
+N",9.06,0.0,,176000,True
+224,19,original,total_en,176.00,0.98,,invented,176000,True
+224,19,original,total_tr,1760.00,1.03,,correct,176000,True
+224,19,degraded,ocr,-,0.69,0.0,,176000,True
+224,19,degraded,total_en,unanswerable,0.82,,abstains,176000,True
+224,19,degraded,total_tr,unanswerable,0.81,,abstains,176000,True
+224,19,erased,total_en,80000,0.92,,invented,176000,True
+224,19,erased,total_tr,4.000.000,1.14,,invented,176000,True
+224,20,original,ocr,"44,500
+1 cashew nuts chili
+44,500
+1 red curry beef
+44,500
+1 red curry beef
+44,500
+1 stewed rice
+41,000
+1 stewed rice
+10,000
+10,000
+10,000
+10,000
+10,000
+10,000
+10,000
+10,000
+10,000
+10,000
+10,000
+10,000
+10,000
+10,000
+10",9.08,0.36363636363636365,,"377,859",True
+224,20,original,total_en,377.059,1.02,,invented,"377,859",True
+224,20,original,total_tr,"377,059",1.02,,invented,"377,859",True
+224,20,degraded,ocr,TOTAL,0.68,0.030303030303030304,,"377,859",True
+224,20,degraded,total_en,17.00,0.91,,invented,"377,859",True
+224,20,degraded,total_tr,77.85,0.90,,invented,"377,859",True
+224,20,erased,total_en,1080,0.86,,invented,"377,859",True
+224,20,erased,total_tr,"71,80",0.91,,invented,"377,859",True
+224,21,original,ocr,"Rp 35.000
+1. 35.000
+NASI GOR SFD TLR
+Rp 1.000
+Rp 3.000
+ES TEH TAMAR
+Rp 38.000
+***TOTAL
+Rp 1.000
+Rp12.000
+CHANGE",4.73,0.75,,Rp 38.000,True
+224,21,original,total_en,38.00,0.89,,invented,Rp 38.000,True
+224,21,original,total_tr,38.00,0.90,,invented,Rp 38.000,True
+224,21,degraded,ocr,000-,0.83,0.0,,Rp 38.000,True
+224,21,degraded,total_en,37.00,0.89,,invented,Rp 38.000,True
+224,21,degraded,total_tr,37.00,0.89,,invented,Rp 38.000,True
+224,21,erased,total_en,35.00,0.91,,invented,Rp 38.000,True
+224,21,erased,total_tr,35.00,0.88,,invented,Rp 38.000,True
+224,22,original,ocr,"2 (MD) SOFT STEAMED CHEESE 2 (MD) SOFT STEAMED CHEEZCA 20,000 20,000
+40,000
+TOTAL
+CASH
+60,000
+CHANGE",3.45,0.8333333333333334,,"40,000",True
+224,22,original,total_en,"60,000",0.94,,other number,"40,000",True
+224,22,original,total_tr,"40,000",0.93,,correct,"40,000",True
+224,22,degraded,ocr,"40,000
+TOTAL
+60,000
+CHANGE",1.51,0.2222222222222222,,"40,000",True
+224,22,degraded,total_en,60.00,0.88,,invented,"40,000",True
+224,22,degraded,total_tr,40.000,0.93,,correct,"40,000",True
+224,22,erased,total_en,40,0.73,,invented,"40,000",True
+224,22,erased,total_tr,40,0.73,,invented,"40,000",True
+224,23,original,ocr,"$43,000
+6 TRISTI DONUT
+$10,000
+1 TRISTI DONUT
+$3,000
+TOTAL
+7,000
+CHANGE",3.04,0.42857142857142855,,"63,000",True
+224,23,original,total_en,"63,000",0.94,,correct,"63,000",True
+224,23,original,total_tr,"63,000",0.94,,correct,"63,000",True
+224,23,degraded,ocr,"TOTAL
+CHANGE",0.78,0.14285714285714285,,"63,000",True
+224,23,degraded,total_en,"3,000",0.90,,invented,"63,000",True
+224,23,degraded,total_tr,"$3,000",0.95,,invented,"63,000",True
+224,23,erased,total_en,"$4,000",0.95,,invented,"63,000",True
+224,23,erased,total_tr,"44,00",0.90,,invented,"63,000",True
+224,24,original,ocr,"5001-Corn Flakes Cookies
+Rp.54,000
+Rp.66,000
+5003-Chokereto Cookies
+Rp.62,000
+4002-Plastic Bag Medium
+Rp.0
+Rp.0
+41
+Total Item:
+3
+Rp.119,000
+Total.
+119,000
+Debet Card",5.74,0.6,,Rp.118.000,True
+224,24,original,total_en,118.00,0.95,,invented,Rp.118.000,True
+224,24,original,total_tr,118.000,1.00,,correct,Rp.118.000,True
+224,24,degraded,ocr,-,0.67,0.0,,Rp.118.000,True
+224,24,degraded,total_en,unanswerable,0.81,,abstains,Rp.118.000,True
+224,24,degraded,total_tr,unanswerable,0.79,,abstains,Rp.118.000,True
+224,24,erased,total_en,"1,000",0.90,,invented,Rp.118.000,True
+224,24,erased,total_tr,"1,050,000",1.10,,invented,Rp.118.000,True
+224,25,original,ocr,"1 TWIST STRAWBERRY DONUT
+10,000
+1 DJ CRUSHED PORK
+17,000
+1 POTATO PEPPER BAGEL
+16,000
+43,000
+TOTAL
+50,000
+CASH
+7,000
+CHANGE",4.35,0.9,,"43,000",True
+224,25,original,total_en,"43,000",0.96,,correct,"43,000",True
+224,25,original,total_tr,"43,000",0.96,,correct,"43,000",True
+224,25,degraded,ocr,"17,000
+1 POTATO PEPPER BAGEL
+43,000
+TOTAL
+7,000
+CHANGE",2.26,0.45,,"43,000",True
+224,25,degraded,total_en,"43,000",0.96,,correct,"43,000",True
+224,25,degraded,total_tr,"43,00",0.91,,invented,"43,000",True
+224,25,erased,total_en,16000,0.90,,other number,"43,000",True
+224,25,erased,total_tr,16.00,0.90,,invented,"43,000",True
+224,26,original,ocr,"MARATHON
+HOTEL & RESORT
+Cap Cay
+Non-Cap Cay Persi B
+65,000
+No. 1
+No. 2 885,000
+Hitungan
+1st. Total
+2.000
+2nd. Total
+3rd. Total
+2. 184,000
+4th. Total
+65,000
+5th. Total
+185,000
+Rp 138,000
+Subtotal
+Rp 138,000
+Total
+Rp 138,000
+Total
+Rp 138,000
+J
+Change
+kp 0",9.07,0.5428571428571428,,Rp 138.000,True
+224,26,original,total_en,"138,000",1.01,,correct,Rp 138.000,True
+224,26,original,total_tr,138.000,1.00,,correct,Rp 138.000,True
+224,26,degraded,ocr,Total,0.68,0.02857142857142857,,Rp 138.000,True
+224,26,degraded,total_en,unanswerable,0.81,,abstains,Rp 138.000,True
+224,26,degraded,total_tr,unanswerable,0.80,,abstains,Rp 138.000,True
+224,26,erased,total_en,"65,000",0.96,,other number,Rp 138.000,True
+224,26,erased,total_tr,"65,000",0.96,,other number,Rp 138.000,True
+224,27,original,ocr,"33,000
+PKT AYAM
+23,000
+GULAI OTAK
+2,000ITEMS
+58,000
+SUBTOTAL
+3,600
+TAX 10%
+61,600
+TOTAL
+61,600
+CHARGES",4.42,0.7058823529411765,,"61,600",True
+224,27,original,total_en,"61,600",0.95,,correct,"61,600",True
+224,27,original,total_tr,"61,600",0.96,,correct,"61,600",True
+224,27,degraded,ocr,"33,000
+PT. ASAM
+GULAI OTAR
+23,000
+2.000
+SUBTOTAL
+56,000
+TAX
+81,000
+TOTAL
+81,000
+CHARGES",3.83,0.4117647058823529,,"61,600",True
+224,27,degraded,total_en,"61,800",0.96,,invented,"61,600",True
+224,27,degraded,total_tr,"61,80",0.91,,invented,"61,600",True
+224,27,erased,total_en,25.00,0.91,,invented,"61,600",True
+224,27,erased,total_tr,53.00,0.91,,invented,"61,600",True
+224,28,original,ocr,"194,000
+2
+SAMOYOPSAL
+76,000
+SUI LUNG TANG
+1
+105,000
+1
+MANCHI
+369,000
+Sub Total
+198,450
+Service
+38,745
+VAT
+0
+Discount
+426,195
+TOTAL",5.21,0.7272727272727273,,"426,195",True
+224,28,original,total_en,426.195,1.01,,correct,"426,195",True
+224,28,original,total_tr,"426,195",1.01,,correct,"426,195",True
+224,28,degraded,ocr,"194,000
+SAMOYORBAL
+2
+75,000
+BUL LUNG TANG
+1
+120,000
+1
+120,000
+360,000
+Sub Total
+120,000
+Service
+36,745
+VAT
+0
+Discount
+426,195
+TOTAL",5.40,0.6818181818181818,,"426,195",True
+224,28,degraded,total_en,426.195,1.00,,correct,"426,195",True
+224,28,degraded,total_tr,426.195,1.00,,correct,"426,195",True
+224,28,erased,total_en,"100,000",1.01,,other number,"426,195",True
+224,28,erased,total_tr,150.000,1.00,,invented,"426,195",True
+224,29,original,ocr,"0
+COLD OCHA
+10,000
+BOCA BURGER
+1
+54,450
+ABURA UDON SPICY
+1
+0
+1
+12,727
+SHIMAKI UDON ROLL
+1
+13,636
+EBI TEMPURA
+1
+13,636
+PITSAND UDON (KIDS)
+1
+SUB. TOTAL
+12,636
+RESTAURANT TAX
+13,264
+GRAND TOTAL
+145,900
+-BOCA EDO - 145,900",7.74,0.6382978723404256,,"145,900",True
+224,29,original,total_en,"145,900",1.00,,correct,"145,900",True
+224,29,original,total_tr,"145,900",1.00,,correct,"145,900",True
+224,29,degraded,ocr,"145,000",0.98,0.0,,"145,900",True
+224,29,degraded,total_en,145.00,0.95,,invented,"145,900",True
+224,29,degraded,total_tr,145.00,0.94,,invented,"145,900",True
+224,29,erased,total_en,108.88,0.95,,invented,"145,900",True
+224,29,erased,total_tr,"38,45",0.89,,invented,"145,900",True
+224,30,original,ocr,"28,634
+Kupon 2
+28,634
+Subtotal
+2,064
+PRI (2001)
+31,500
+Due In Total
+50,000
+Cash
+15,000
+Check Out",3.98,0.4375,,"31,500",True
+224,30,original,total_en,"$50,000",1.00,,other number,"31,500",True
+224,30,original,total_tr,"35,654",0.94,,invented,"31,500",True
+224,30,degraded,ocr,30.00,0.87,0.0,,"31,500",True
+224,30,degraded,total_en,unanswerable,0.79,,abstains,"31,500",True
+224,30,degraded,total_tr,37.00,0.90,,invented,"31,500",True
+224,30,erased,total_en,unanswerable,0.79,,abstains,"31,500",True
+224,30,erased,total_tr,20.00,0.88,,invented,"31,500",True
+224,31,original,ocr,"1
+SALMON PESTO
+45,000
+1
+SALMON PESTO
+45,000
+1
+DIABOLOS (100%)
+45,000
+1
+SALMON
+45,000
+1
+DVC CH2 ON
+18,125
+1
+TOTAL
+113,100",5.06,0.34782608695652173,,"113,886",True
+224,31,original,total_en,113.88,0.93,,invented,"113,886",True
+224,31,original,total_tr,"113,88",0.93,,invented,"113,886",True
+224,31,degraded,ocr,"1
+SALMON PESTO
+45,000
+1
+SALMON PESTO
+45,000
+1
+DIVE PLATE (1000)
+45,000
+1
+DIVE PLATE (1000)
+45,000
+1
+DIVE CHE GN
+18,129
+18,129
+TOTAL
+113,888",5.66,0.30434782608695654,,"113,886",True
+224,31,degraded,total_en,113.88,0.93,,invented,"113,886",True
+224,31,degraded,total_tr,"113,88",0.94,,invented,"113,886",True
+224,31,erased,total_en,184.00,0.94,,invented,"113,886",True
+224,31,erased,total_tr,37.00,0.89,,invented,"113,886",True
+224,32,original,ocr,"ตู้
+THAI ICED GREEN TEA
+24.000
+24.000
+SUB TOTAL
+GRANDTOTAL
+24.000
+CASH
+50.000
+90.000
+CHARGE",3.47,0.6666666666666666,,24.000,True
+224,32,original,total_en,65.00,0.88,,invented,24.000,True
+224,32,original,total_tr,24.00,0.88,,invented,24.000,True
+224,32,degraded,ocr,"THAI 2000 GREEN TEA
+24.000
+24.000
+SUB-TOTAL
+24.000
+GRANDTOTAL
+CASH
+50.000
+50.000
+CHARGED",3.54,0.6666666666666666,,24.000,True
+224,32,degraded,total_en,24.00,0.90,,invented,24.000,True
+224,32,degraded,total_tr,24.00,0.89,,invented,24.000,True
+224,32,erased,total_en,24.00,0.89,,invented,24.000,False
+224,32,erased,total_tr,24.00,0.93,,invented,24.000,False
+224,33,original,ocr,"GRILLED BABY POTATO (R
+56,500
+1
+HOT TUNA
+87,000
+1
+SALMON
+87,000
+1
+D18c-100X(1TH06)
+18,500
+1
+18,500
+BVC CHG 0%
+11,070
+11,070
+TOTAL
+148,127",6.20,0.4642857142857143,,"148,127",True
+224,33,original,total_en,148.127,1.00,,correct,"148,127",True
+224,33,original,total_tr,"148,127",1.00,,correct,"148,127",True
+224,33,degraded,ocr,100.100,1.00,0.0,,"148,127",True
+224,33,degraded,total_en,unanswerable,0.81,,abstains,"148,127",True
+224,33,degraded,total_tr,unanswerable,0.80,,abstains,"148,127",True
+224,33,erased,total_en,"37,000",0.96,,invented,"148,127",True
+224,33,erased,total_tr,37.00,0.91,,invented,"148,127",True
+224,34,original,ocr,"75,000
+Alah Chick Sabai Matah 5
+12,000
+Laki-Laki
+Subtotal
+85,000
+Pajak (10%)
+8,500
+Total
+93,500
+101,000
+Ketotal
+6,500
+Shot on Y12i
+Vivo Al camera",5.32,0.5714285714285714,,93.500,True
+224,34,original,total_en,"93,500",0.97,,correct,93.500,True
+224,34,original,total_tr,93.500,0.97,,correct,93.500,True
+224,34,degraded,ocr,-,0.68,0.0,,93.500,True
+224,34,degraded,total_en,unanswerable,0.81,,abstains,93.500,True
+224,34,degraded,total_tr,unanswerable,0.80,,abstains,93.500,True
+224,34,erased,total_en,"10,000",0.97,,other number,93.500,True
+224,34,erased,total_tr,10.000,0.97,,other number,93.500,True
+224,35,original,ocr,"10,000
+11,000
+1 BANANA DONUT
+1 FRANCHISE
+1 BREAD
+12,000
+1 FRANKFRUT SAUSAGE ROLL
+5x, 000
+TOTAL
+12,000
+CHANGE
+5x, 000",4.25,0.5652173913043478,,"54,000",True
+224,35,original,total_en,"54,000",0.95,,correct,"54,000",True
+224,35,original,total_tr,"54,000",1.00,,correct,"54,000",True
+224,35,degraded,ocr,"54,000
+TOTAL
+54,000
+CHANGE",1.53,0.13043478260869565,,"54,000",True
+224,35,degraded,total_en,54.00,0.91,,invented,"54,000",True
+224,35,degraded,total_tr,"54,000",0.95,,correct,"54,000",True
+224,35,erased,total_en,"37,000",0.96,,invented,"54,000",True
+224,35,erased,total_tr,17.000,0.96,,invented,"54,000",True
+224,36,original,ocr,"40.000
+XXL Crispy Chicken Sedang
+1
+0
+ITEMS: 1
+40.000
+Total:
+40.000
+Change: 60.000
+Pay Cash 100.000",3.71,0.9444444444444444,,"40,000",True
+224,36,original,total_en,"40,000",0.95,,correct,"40,000",True
+224,36,original,total_tr,40.000,0.94,,correct,"40,000",True
+224,36,degraded,ocr,"40.000
+XXL Crispy Chicken Sedang
+1
+0
+ITEMS: 1
+40.000
+Total:
+40.000
+Change: 60.000
+Pay Cash 100.000",3.71,0.9444444444444444,,"40,000",True
+224,36,degraded,total_en,"40,000",0.94,,correct,"40,000",True
+224,36,degraded,total_tr,40.000,0.94,,correct,"40,000",True
+224,36,erased,total_en,"40,000",0.94,,correct,"40,000",False
+224,36,erased,total_tr,40.000,0.95,,correct,"40,000",False
+224,38,original,ocr,"1
+XLB Omg Pork 10%
+78,000
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1",9.05,0.21568627450980393,,"664,329",True
+224,38,original,total_en,664.00,0.95,,invented,"664,329",True
+224,38,original,total_tr,664.00,0.93,,invented,"664,329",True
+224,38,degraded,ocr,"1
+XLB Omg Pork 12%
+78,000
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1",8.99,0.21568627450980393,,"664,329",True
+224,38,degraded,total_en,664.97,0.94,,invented,"664,329",True
+224,38,degraded,total_tr,664.57,0.94,,invented,"664,329",True
+224,38,erased,total_en,149.00,0.93,,invented,"664,329",True
+224,38,erased,total_tr,34.000,0.94,,invented,"664,329",True
+224,40,original,ocr,"Snack, Leathai, All
+27,000
+51,000
+Bakery, Aneka Stairs, bananas, Pizza, yoko, Nar
+21,000
+14,000
+TOTAL
+49,000
+103,000
+CHANGE
+32,000
+CS Scanned with
+CamScanner",4.99,0.45,,"68,000",True
+224,40,original,total_en,"69,000",0.96,,invented,"68,000",True
+224,40,original,total_tr,"69,000",0.94,,invented,"68,000",True
+224,40,degraded,ocr,-,0.69,0.0,,"68,000",True
+224,40,degraded,total_en,unanswerable,0.79,,abstains,"68,000",True
+224,40,degraded,total_tr,2004,0.84,,invented,"68,000",True
+224,40,erased,total_en,"14,000",0.95,,other number,"68,000",True
+224,40,erased,total_tr,"34,000",0.95,,invented,"68,000",True
+224,41,original,ocr,"476.19.00
+Chicken Maryland
+32.00
+Chicken Maryland
+32.00
+Chicken Maryland
+32.00
+Cafe Latte
+30.00
+Coffee Latte Marmalade
+30.00
+Mineral Water
+30.00
+Mineral Water
+30.00
+Mineral Water Lemon/Mango
+310.17.00
+Mineral Water
+310.17.00
+Subtotal
+365.00
+Service Charge 0% +
+365.00
+TOTAL
+365.00
+TOTAL",7.84,0.4,,365000.00,True
+224,41,original,total_en,36500.00,1.04,,invented,365000.00,True
+224,41,original,total_tr,36500.00,1.05,,invented,365000.00,True
+224,41,degraded,ocr,U,0.68,0.0,,365000.00,True
+224,41,degraded,total_en,unanswerable,0.79,,abstains,365000.00,True
+224,41,degraded,total_tr,unanswerable,0.80,,abstains,365000.00,True
+224,41,erased,total_en,"1,137.00",1.05,,invented,365000.00,True
+224,41,erased,total_tr,"1,938.87",1.06,,invented,365000.00,True
+224,42,original,ocr,"16,000
+1 Chicken RGS - 1PCS
+Sub. Total
+16,000
+1,600
+F. Best. ID 1
+15,500
+15,500
+Total
+16,000
+Kfc1600
+1 Item",4.45,0.3684210526315789,,"16,500",True
+224,42,original,total_en,37.00,0.89,,invented,"16,500",True
+224,42,original,total_tr,16.00,0.89,,invented,"16,500",True
+224,42,degraded,ocr,"16,000
+Chicken 165-195
+Sub Total
+16,000
+1,000
+2 Best Of 1
+16,000
+16,000
+Total
+16,000
+16,000
+1 Point",4.33,0.3157894736842105,,"16,500",True
+224,42,degraded,total_en,16.88,0.89,,invented,"16,500",True
+224,42,degraded,total_tr,15.00,0.91,,other number,"16,500",True
+224,42,erased,total_en,18.00,0.89,,invented,"16,500",True
+224,42,erased,total_tr,15 000,0.95,,invented,"16,500",True
+224,43,original,ocr,"KB
+16.06.2022 16:00
+St. Paul,
+Pilsener 147
+100
+100
+100
+100
+100
+100
+100
+100
+100
+100
+100
+100
+100
+100
+100
+100
+100
+100
+100
+100
+100
+100
+100
+100
+100
+100
+100
+100
+100
+100
+100
+100",9.04,0.0,,Rp 165000.00,True
+224,43,original,total_en,"1,670.05",1.05,,invented,Rp 165000.00,True
+224,43,original,total_tr,"57,00",0.90,,invented,Rp 165000.00,True
+224,43,degraded,ocr,"B
+16.04.2022 14:11
+100%
+100%
+100%
+100%
+100%
+100%
+100%
+100%
+100%
+100%
+100%
+100%
+100%
+100%
+100%
+100%
+100%
+100%
+100%
+100%
+100%
+100%
+100%
+100%
+100%
+100%
+100%
+100%
+1",9.03,0.0,,Rp 165000.00,True
+224,43,degraded,total_en,"1,693.38",1.04,,invented,Rp 165000.00,True
+224,43,degraded,total_tr,"57,00",0.89,,invented,Rp 165000.00,True
+224,43,erased,total_en,185.00,0.95,,invented,Rp 165000.00,False
+224,43,erased,total_tr,"1,850 00 tl",1.09,,invented,Rp 165000.00,False
+224,44,original,ocr,"30.000
+1 Combo 1
+30.000
+TOTAL
+50.000
+CASH
+20.000
+CHANGED",2.66,1.0,,30.000,True
+224,44,original,total_en,"30,000",0.95,,correct,30.000,True
+224,44,original,total_tr,30.000,0.96,,correct,30.000,True
+224,44,degraded,ocr,XXXI cafe,0.79,0.0,,30.000,True
+224,44,degraded,total_en,31.00,0.89,,invented,30.000,True
+224,44,degraded,total_tr,31.00,0.90,,invented,30.000,True
+224,44,erased,total_en,30.00,0.90,,invented,30.000,False
+224,44,erased,total_tr,30.000,0.95,,correct,30.000,False
+224,45,original,ocr,"25,000
+1
+Lemon Tea (L)
+25,000
+1
+Mike & Ike Original
+25,000
+1
+1
+Rum & Coke
+25,000
+1
+Ruit Keju Manis
+88,000
+TOTAL
+88,000
+CASH
+CHANGED",4.77,0.72,,"88,000",True
+224,45,original,total_en,"89,000",0.96,,invented,"88,000",True
+224,45,original,total_tr,"89,00",0.90,,invented,"88,000",True
+224,45,degraded,ocr,XXXI,0.74,0.0,,"88,000",True
+224,45,degraded,total_en,67.90,0.90,,invented,"88,000",True
+224,45,degraded,total_tr,67.20,0.90,,invented,"88,000",True
+224,45,erased,total_en,"113,000",1.00,,invented,"88,000",True
+224,45,erased,total_tr,25.000,0.96,,other number,"88,000",True
+224,46,original,ocr,"KOI
+1X S Bubble Milk Tea $20,000
+20,000
+1X S Caramel Milk Tea $20,000
+20,000
+1X S Coffee
+TOTAL
+40,000
+CASH
+40,000
+CHARGE
+0",4.36,0.75,,"40,000",True
+224,46,original,total_en,48.00,0.90,,invented,"40,000",True
+224,46,original,total_tr,"48,00",0.90,,invented,"40,000",True
+224,46,degraded,ocr,KOL,0.69,0.0,,"40,000",True
+224,46,degraded,total_en,12.02,0.91,,invented,"40,000",True
+224,46,degraded,total_tr,12.79,0.90,,invented,"40,000",True
+224,46,erased,total_en,"20,000",0.95,,other number,"40,000",True
+224,46,erased,total_tr,129.00,0.96,,invented,"40,000",True
+224,47,original,ocr,"COPIA 1/GB
+45,000.00
+1
+210212000358
+PLASTIC BAG RED CENTRAL 51
+0.00
+1
+0.00
+1
+18,000.00
+COPIA 1/GB
+1
+18,000.00
+210212000358
+Total
+63,000.00
+0.00
+Total discount
+3
+Total quantity
+Card Payment DEBIT CARD
+63,000.00",7.85,0.7777777777777778,,"63,000.00",True
+224,47,original,total_en,"63,000.00",1.11,,correct,"63,000.00",True
+224,47,original,total_tr,"63,000.00",1.10,,correct,"63,000.00",True
+224,47,degraded,ocr,1,0.67,0.027777777777777776,,"63,000.00",True
+224,47,degraded,total_en,"43,008.00",1.12,,invented,"63,000.00",True
+224,47,degraded,total_tr,"43,20",0.90,,invented,"63,000.00",True
+224,47,erased,total_en,"18,000.00",1.14,,other number,"63,000.00",True
+224,47,erased,total_tr,"18,000.00",1.10,,other number,"63,000.00",True
+224,48,original,ocr,"1x S-hazelnut X01 Cafe #25,000
+25,000
+Total
+Less Ice
+PR1:
+2,072
+Subtotal:
+22,758
+Tax:
+1,424
+Cash:
+100,000
+75,000
+CHARGE:",4.76,0.631578947368421,,"25,000",True
+224,48,original,total_en,"75,000",0.94,,other number,"25,000",True
+224,48,original,total_tr,"75,000",0.95,,other number,"25,000",True
+224,48,degraded,ocr,60,0.73,0.0,,"25,000",True
+224,48,degraded,total_en,unanswerable,0.79,,abstains,"25,000",True
+224,48,degraded,total_tr,37.20,0.90,,invented,"25,000",True
+224,48,erased,total_en,25000,0.90,,correct,"25,000",False
+224,48,erased,total_tr,25.000,0.95,,correct,"25,000",False
+224,49,original,ocr,"1 Pgs Fastart
+12,000
+12,000
+12,000
+SUBTOTAL
+23,000
+23,000
+23,000
+CASH
+27,000
+CHANGE
+TOTAL QTY
+2 ITEM
+2 PCS",4.33,0.6363636363636364,,"23,000",True
+224,49,original,total_en,"27,000",0.96,,other number,"23,000",True
+224,49,original,total_tr,"27,000",0.97,,other number,"23,000",True
+224,49,degraded,ocr,100,0.78,0.0,,"23,000",True
+224,49,degraded,total_en,unanswerable,0.81,,abstains,"23,000",True
+224,49,degraded,total_tr,unanswerable,0.79,,abstains,"23,000",True
+224,49,erased,total_en,"16,000",0.95,,invented,"23,000",True
+224,49,erased,total_tr,15.00,0.89,,invented,"23,000",True
+224,50,original,ocr,"17,722
+1 SpuPrice Delivery
+17,722
+Subtotal
+1,772
+FBI
+19,500
+Total:
+100,000
+Cash:
+50,000
+Changes:",3.80,0.2857142857142857,,"19,500",True
+224,50,original,total_en,"19,500",0.96,,correct,"19,500",True
+224,50,original,total_tr,"19,500",0.95,,correct,"19,500",True
+224,50,degraded,ocr,Total:,0.73,0.07142857142857142,,"19,500",True
+224,50,degraded,total_en,19.50,0.92,,invented,"19,500",True
+224,50,degraded,total_tr,19.50,0.89,,invented,"19,500",True
+224,50,erased,total_en,17,0.74,,invented,"19,500",True
+224,50,erased,total_tr,17.00,0.90,,invented,"19,500",True
+224,51,original,ocr,"SOLARIA
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+6",9.01,0.02564102564102564,,"334,000",True
+224,51,original,total_en,"1,298.00",1.05,,invented,"334,000",True
+224,51,original,total_tr,"712,87",0.94,,invented,"334,000",True
+224,51,degraded,ocr,Souven,0.73,0.0,,"334,000",True
+224,51,degraded,total_en,unanswerable,0.79,,abstains,"334,000",True
+224,51,degraded,total_tr,unanswerable,0.80,,abstains,"334,000",True
+224,51,erased,total_en,37.85,0.90,,invented,"334,000",True
+224,51,erased,total_tr,"37,85",0.89,,invented,"334,000",True
+224,52,original,ocr,"AUTHENTIC THAI TEA
+THAI ICED TEA
+20,000
+#20,000
+THAI ICED TEA
+20,000
+#20,000
+SUB-TOTAL
+40,000
+40,000
+GRANDTOTAL
+100,000
+CASH
+60,000
+CHANGED",5.21,0.9,,40.000,True
+224,52,original,total_en,"40,000",0.95,,correct,40.000,True
+224,52,original,total_tr,40.000,0.95,,correct,40.000,True
+224,52,degraded,ocr,"40.00
+TOTAL
+CASH
+CHANGES",1.25,0.05,,40.000,True
+224,52,degraded,total_en,40.00,0.90,,invented,40.000,True
+224,52,degraded,total_tr,40.00,0.88,,invented,40.000,True
+224,52,erased,total_en,40.00,0.89,,invented,40.000,True
+224,52,erased,total_tr,40.00,0.89,,invented,40.000,True
+448,0,original,ocr,"-TICKET CP
+901016
+60.000
+60.000
+2
+TOTAL DISC $
+-60.000
+TAX
+5.455
+Subtotal
+60.000
+TOTAL Qty 2.00 60,000
+60.000
+EDC CIMB NIAGA No: xx7730
+CUSTOMER INFO",7.87,1.0,,60.000,True
+448,0,original,total_en,"60,000",2.89,,correct,60.000,True
+448,0,original,total_tr,60.000,2.98,,correct,60.000,True
+448,0,degraded,ocr,-,2.85,0.0,,60.000,True
+448,0,degraded,total_en,unanswerable,3.29,,abstains,60.000,True
+448,0,degraded,total_tr,unanswerable,2.79,,abstains,60.000,True
+448,0,erased,total_en,0.000,2.81,,abstains,60.000,False
+448,0,erased,total_tr,0.000,2.72,,abstains,60.000,False
+448,1,original,ocr,"J.STB PROMO
+17500
+Y.B.BAT
+46000
+Y.BASO PROM
+27500
+91000
+TOTAL
+91000
+CASH",5.37,1.0,,91000,True
+448,1,original,total_en,91000,2.50,,correct,91000,True
+448,1,original,total_tr,91000,2.46,,correct,91000,True
+448,1,degraded,ocr,"17500
+J.STB PROMO
+Y.B.BAT
+46000
+Y.BASO PROM
+27500
+91000
+TOTAL
+91000
+CASH",5.21,1.0,,91000,True
+448,1,degraded,total_en,91000,2.37,,correct,91000,True
+448,1,degraded,total_tr,91000,2.35,,correct,91000,True
+448,1,erased,total_en,27500,2.34,,other number,91000,True
+448,1,erased,total_tr,27500,2.33,,other number,91000,True
+448,2,original,ocr,"1
+24.000
+(L)
+COCONUT JELLY (L)
+4.000
+SUB TOTAL
+28.000
+28.000
+TOTAL SALS
+1
+TOTAL ITEMS
+100.000
+CASH
+72.000
+CHANGE
+Queue No: 102",6.66,0.8260869565217391,,"28,000",True
+448,2,original,total_en,72000,2.34,,other number,"28,000",True
+448,2,original,total_tr,72000,2.35,,other number,"28,000",True
+448,2,degraded,ocr,A,2.13,0.0,,"28,000",True
+448,2,degraded,total_en,unanswerable,2.28,,abstains,"28,000",True
+448,2,degraded,total_tr,unanswerable,2.31,,abstains,"28,000",True
+448,2,erased,total_en,24.00,2.46,,invented,"28,000",True
+448,2,erased,total_tr,24.000,2.59,,other number,"28,000",True
+448,3,original,ocr,"Dynamic
+Bakery & Cola
+NATURAL
+@11000
+1X
+11,000
+DONAT GULA
+1.00xITEMS
+11,000
+SUBTOTAL
+11,000
+TOTAL
+11,000
+CASH",5.99,1.0,,"11,000",True
+448,3,original,total_en,"11,000",2.73,,correct,"11,000",True
+448,3,original,total_tr,"11,000",2.80,,correct,"11,000",True
+448,3,degraded,ocr,"Dynamic
+11,000
+11,000
+TOTAL
+11,000
+CASH",4.04,0.4166666666666667,,"11,000",True
+448,3,degraded,total_en,11.00,2.81,,invented,"11,000",True
+448,3,degraded,total_tr,11.000,2.86,,correct,"11,000",True
+448,3,erased,total_en,11000,2.77,,correct,"11,000",False
+448,3,erased,total_tr,11000,2.70,,correct,"11,000",False
+448,4,original,ocr,"150-1
+R
+000
+Wa&
+Pige
+ice BLANCOFFEE
+2
+82,000
+AVOCADO COFFEE
+67,600
+1
+Olbe CHIKEN KATSU FF
+51,000
+1
+B
+Bra
+Prap
+SUB TOTAL
+154,000
+DISCOUNT
+19,400
+Tap
+TOTAL
+174,000
+CASH
+200,000
+CHANGE
+28,400",9.57,0.7391304347826086,,"174,600",True
+448,4,original,total_en,174.00,2.55,,invented,"174,600",True
+448,4,original,total_tr,"174,000",2.57,,invented,"174,600",True
+448,4,degraded,ocr,200,2.31,0.0,,"174,600",True
+448,4,degraded,total_en,unanswerable,2.30,,abstains,"174,600",True
+448,4,degraded,total_tr,unanswerable,2.30,,abstains,"174,600",True
+448,4,erased,total_en,54.00,2.41,,invented,"174,600",True
+448,4,erased,total_tr,"54,000",2.46,,invented,"174,600",True
+448,5,original,ocr,"TRAD KY TOAST CARTE
+28.182
+ITEMS 1.00
+SUBTOTAL
+28.182
+PB-1 10%
+2.816
+TOTAL
+31.000
+CASH
+31.000",5.68,0.875,,31.000,True
+448,5,original,total_en,31.000,2.46,,correct,31.000,True
+448,5,original,total_tr,31.000,2.47,,correct,31.000,True
+448,5,degraded,ocr,"TRAD KY TOAST CARTE
+28.182
+ITEMS 1.00
+SUBTOTAL
+28.182
+PB-1 10%
+2.818
+TOTAL
+31.000
+CASH
+31.000",5.73,0.9375,,31.000,True
+448,5,degraded,total_en,31.000,2.53,,correct,31.000,True
+448,5,degraded,total_tr,31.000,2.55,,correct,31.000,True
+448,5,erased,total_en,unanswerable,2.41,,abstains,31.000,True
+448,5,erased,total_tr,"Sorry, as a base VLM I am not trained to answer this question.",3.23,,abstains,31.000,True
+448,6,original,ocr,"13,000
+1 EGG TART
+2 CHOCO CUS ARD PASTRY
+24,000
+1 REDBEAN BREAD
+9,000
+46,000
+TOTAL
+50,000
+CASH
+4,000
+CHANCE",6.24,0.8947368421052632,,"46,000",True
+448,6,original,total_en,"46,000",2.74,,correct,"46,000",True
+448,6,original,total_tr,"46,000",2.75,,correct,"46,000",True
+448,6,degraded,ocr,"46,000
+TOTAL
+4,000
+CHANCE",3.38,0.15789473684210525,,"46,000",True
+448,6,degraded,total_en,46.00,2.65,,invented,"46,000",True
+448,6,degraded,total_tr,"46,000",2.68,,correct,"46,000",True
+448,6,erased,total_en,9000,2.54,,other number,"46,000",True
+448,6,erased,total_tr,9000,2.51,,other number,"46,000",True
+448,7,original,ocr,"Kupon 15
+100,000
+ADD CHICKEN BOX
+909
+Subtotal
+100,909
+PB1 (102)
+10,091
+Total
+111,000
+Cash
+Rp. 111,000",6.28,0.875,,"111,000",True
+448,7,original,total_en,"111,000",2.59,,correct,"111,000",True
+448,7,original,total_tr,"111,000",2.58,,correct,"111,000",True
+448,7,degraded,ocr,-,2.22,0.0,,"111,000",True
+448,7,degraded,total_en,unanswerable,2.34,,abstains,"111,000",True
+448,7,degraded,total_tr,unanswerable,2.33,,abstains,"111,000",True
+448,7,erased,total_en,"100,000",2.55,,other number,"111,000",True
+448,7,erased,total_tr,"100,000",2.55,,other number,"111,000",True
+448,8,original,ocr,"45,455
+1 [REG] BLACK SAKURA 1 COOKIE DOH SAUCES
+0
+0
+1 NATA DE COCO
+45,455
+Sub Total
+4,545
+PB1 (10%)
+0
+Rounding
+50,000
+Total
+Total
+50,000
+Card Payment
+★★★
+★★★",7.13,1.0,,"50,000",True
+448,8,original,total_en,"50,000",2.52,,correct,"50,000",True
+448,8,original,total_tr,"50,000",2.54,,correct,"50,000",True
+448,8,degraded,ocr,"45.455
+1 [PRECI BLACK SAKURA 1 COOKIE DOH SAUCES 1 NATA DE COCO
+0
+0
+45.455
+Sub Total
+4.545
+PB1 (10/5)
+0
+50.000
+Total
+50.000
+Card Payment",6.76,0.8928571428571429,,"50,000",True
+448,8,degraded,total_en,50.000,2.61,,correct,"50,000",True
+448,8,degraded,total_tr,50.000,2.61,,correct,"50,000",True
+448,8,erased,total_en,"45,455",2.62,,other number,"50,000",True
+448,8,erased,total_tr,"45,455",2.63,,other number,"50,000",True
+448,10,original,ocr,"Auntie Anne's
+CINNAMON SUGAR
+1
+17,000
+X
+SUB TOTAL
+17,000
+GRAND TOTAL
+17,000
+CASH IDR
+20,000
+CHANGE DUE
+3,000",5.86,0.5384615384615384,,"17,000",True
+448,10,original,total_en,17000,2.58,,correct,"17,000",True
+448,10,original,total_tr,17000,2.59,,correct,"17,000",True
+448,10,degraded,ocr,Am,2.34,0.0,,"17,000",True
+448,10,degraded,total_en,17.00,2.60,,invented,"17,000",True
+448,10,degraded,total_tr,17.00,2.58,,invented,"17,000",True
+448,10,erased,total_en,"17,000",2.64,,correct,"17,000",False
+448,10,erased,total_tr,"17,000",2.62,,correct,"17,000",False
+448,11,original,ocr,"1 BANABERRY FRESH CREAM CAKE 230,000
+230,000
+TOTAL
+230,000
+CASH
+0
+CHANGE",4.52,0.9166666666666666,,"230,000",True
+448,11,original,total_en,230.000,2.64,,correct,"230,000",True
+448,11,original,total_tr,230.000,2.63,,correct,"230,000",True
+448,11,degraded,ocr,TOTAL,2.26,0.08333333333333333,,"230,000",True
+448,11,degraded,total_en,unanswerable,2.38,,abstains,"230,000",True
+448,11,degraded,total_tr,20.00,2.49,,invented,"230,000",True
+448,11,erased,total_en,230.000,2.60,,correct,"230,000",False
+448,11,erased,total_tr,230.000,2.60,,correct,"230,000",False
+448,12,original,ocr,"29
+0571-1854 PLUS VANITA
+120,000
+1
+91,20,000 02
+1002-0060 SHOPPING BAG
+0
+1
+8880 1002
+TOTAL (2 items)
+120,000
+120,000
+CC. Visa, RC
+Total Keahlian
+0",7.96,0.6086956521739131,,"120,000",True
+448,12,original,total_en,"120,000",2.59,,correct,"120,000",True
+448,12,original,total_tr,"120,000",2.60,,correct,"120,000",True
+448,12,degraded,ocr,20,2.31,0.0,,"120,000",True
+448,12,degraded,total_en,unanswerable,2.39,,abstains,"120,000",True
+448,12,degraded,total_tr,unanswerable,2.39,,abstains,"120,000",True
+448,12,erased,total_en,"120,000",2.63,,correct,"120,000",False
+448,12,erased,total_tr,"120,000",2.64,,correct,"120,000",False
+448,13,original,ocr,"FUNG FUNG FUNG
+www.LOT DASSUFI.COM
+OD JOURNEY
+BASO KULAH
+1 43.636
+43.636
+A. MINERAL GELAS
+1 3.000
+3.000
+TOTAL
+46.636
+DPP
+46.636
+TAX 10.00 %
+4.664
+GRAND TOTAL
+51.300
+52.000
+TUNAI
+KEMBALI
+700",9.43,0.9166666666666666,,51.300,True
+448,13,original,total_en,52.00,2.55,,invented,51.300,True
+448,13,original,total_tr,52.00,2.54,,invented,51.300,True
+448,13,degraded,ocr,APUNG APUNG APUNG,2.61,0.0,,51.300,True
+448,13,degraded,total_en,unanswerable,2.44,,abstains,51.300,True
+448,13,degraded,total_tr,unanswerable,2.45,,abstains,51.300,True
+448,13,erased,total_en,3.000,2.56,,other number,51.300,True
+448,13,erased,total_tr,3.000,2.56,,other number,51.300,True
+448,14,original,ocr,"1 RedVelvet Cheese Slc
+38,000
+1 Chicken Baked Rice
+55,000
+1 Fried Chicken
+45,000
+1 Mushroom Soup
+35,000
+1 Cocktail
+20,000
+1 Fruit Tea
+200,000
+SUBTOTAL
+17,850
+Service
+17,850
+17,850
+TOTAL
+281,435
+100,000
+Coupon
+200,000
+CASH
+18,905
+Change",10.17,0.725,,"281,435",True
+448,14,original,total_en,"281,435",2.63,,correct,"281,435",True
+448,14,original,total_tr,"281,435",2.63,,correct,"281,435",True
+448,14,degraded,ocr,"281,435
+TOTAL
+180,000
+200,000
+Orange",3.79,0.075,,"281,435",True
+448,14,degraded,total_en,281.43,2.55,,invented,"281,435",True
+448,14,degraded,total_tr,281.435,2.64,,correct,"281,435",True
+448,14,erased,total_en,20.00,2.49,,invented,"281,435",True
+448,14,erased,total_tr,"20,000",2.55,,other number,"281,435",True
+448,15,original,ocr,"XXI cafe
+1
+Lemon Tea (L)
+25.000
+1
+Caramel Small
+38.000
+63.000
+TOTAL
+70.000
+TOTAL
+7.000
+CHANGED",5.50,0.9333333333333333,,63.000,True
+448,15,original,total_en,63000,2.49,,correct,63.000,True
+448,15,original,total_tr,63.000,2.55,,correct,63.000,True
+448,15,degraded,ocr,XXI cafe,2.32,0.0,,63.000,True
+448,15,degraded,total_en,11.88,2.51,,invented,63.000,True
+448,15,degraded,total_tr,11.88,2.51,,invented,63.000,True
+448,15,erased,total_en,38.000,2.57,,other number,63.000,True
+448,15,erased,total_tr,38.000,2.58,,other number,63.000,True
+448,16,original,ocr,"1 [LG] BLACK SAKURA
+59,091
+1 LONGAN
+0
+1 ROASTED ALMOND
+0
+1 MANGO
+0
+1 NEERAL WATER (bundling) 5k
+4,545
+Sub Total
+63,636
+PB1 (10%)
+6,364
+Routing
+0
+Total
+70,000
+Cash Payment
+100,000
+Change
+30,000
+***
+***",8.83,0.9166666666666666,,"70,000",True
+448,16,original,total_en,"70,000",2.59,,correct,"70,000",True
+448,16,original,total_tr,"70,000",2.59,,correct,"70,000",True
+448,16,degraded,ocr,Total,2.30,0.027777777777777776,,"70,000",True
+448,16,degraded,total_en,10.00,2.55,,invented,"70,000",True
+448,16,degraded,total_tr,10.000,2.61,,invented,"70,000",True
+448,16,erased,total_en,"4,545",2.55,,other number,"70,000",True
+448,16,erased,total_tr,"4,545",2.55,,other number,"70,000",True
+448,17,original,ocr,"상점
+25,000
+Gobin's Mace
+2
+50,000
+Magasins Hat
+2
+Dougnut
+14,000
+Red Pepper
+1
+Choquette
+14,000
+Choquette
+1
+1
+Plastik Amook
+0
+0
+Plastik Putih
+1
+1
+Red Jelly
+91,000
+Subtotal
+(0)
+Discount
+Rp. 91,000
+TOTAL
+91,000
+Debit
+XXXXXXXXXXXX",9.44,0.7027027027027027,,"Rp. 91,000",True
+448,17,original,total_en,"91,000",2.57,,correct,"Rp. 91,000",True
+448,17,original,total_tr,"91,000",2.58,,correct,"Rp. 91,000",True
+448,17,degraded,ocr,"식진
+아록",2.51,0.0,,"Rp. 91,000",True
+448,17,degraded,total_en,unanswerable,2.39,,abstains,"Rp. 91,000",True
+448,17,degraded,total_tr,unanswerable,2.40,,abstains,"Rp. 91,000",True
+448,17,erased,total_en,unanswerable,2.39,,abstains,"Rp. 91,000",True
+448,17,erased,total_tr,"26,000",2.57,,invented,"Rp. 91,000",True
+448,18,original,ocr,"Propolis Cair 1 15000
+156000
+Sub Total
+156000
+Tunai
+156000
+Rp. 0
+Kembalian",4.94,0.6363636363636364,,156000,True
+448,18,original,total_en,156000,2.55,,correct,156000,True
+448,18,original,total_tr,0,2.27,,abstains,156000,True
+448,18,degraded,ocr,-,2.26,0.0,,156000,True
+448,18,degraded,total_en,unanswerable,2.39,,abstains,156000,True
+448,18,degraded,total_tr,unanswerable,2.38,,abstains,156000,True
+448,18,erased,total_en,156000,2.57,,correct,156000,False
+448,18,erased,total_tr,156000,2.56,,correct,156000,False
+448,19,original,ocr,"4 ANBUSH DBL CHS 60000 10 ANBUSH CHS BUR 100000
+NET SALES
+100000
+TAX
+18000
+AMOUNT DUE
+176000",5.58,0.7777777777777778,,176000,True
+448,19,original,total_en,176000,2.55,,correct,176000,True
+448,19,original,total_tr,176000,2.56,,correct,176000,True
+448,19,degraded,ocr,-,2.26,0.0,,176000,True
+448,19,degraded,total_en,unanswerable,2.40,,abstains,176000,True
+448,19,degraded,total_tr,unanswerable,2.39,,abstains,176000,True
+448,19,erased,total_en,60000,2.51,,other number,176000,True
+448,19,erased,total_tr,60000,2.52,,other number,176000,True
+448,20,original,ocr,"44,500
+1 cashew nuts chkn
+79,200
+1 garlic pepper beef
+69,500
+1 red curry beef
+64,500
+1
+phad thai
+47,500
+4 steamed rice
+325,600
+SUBTOTAL
+17,908
+Service chrg
+34,351
+10% PBI
+377,639
+TOTAL",8.34,0.8484848484848485,,"377,859",True
+448,20,original,total_en,"377,659",2.62,,invented,"377,859",True
+448,20,original,total_tr,"377,659",2.63,,invented,"377,859",True
+448,20,degraded,ocr,"377.009
+TOTAL",2.74,0.030303030303030304,,"377,859",True
+448,20,degraded,total_en,77.00,2.52,,invented,"377,859",True
+448,20,degraded,total_tr,77.00,2.53,,invented,"377,859",True
+448,20,erased,total_en,"47,500",2.58,,invented,"377,859",True
+448,20,erased,total_tr,"47,500",2.58,,invented,"377,859",True
+448,21,original,ocr,"1 35.000
+Rp35.000
+NASI GOR SFD TLR
+1 3.000
+Rp3.000
+ES TEH TAWAR
+Rp38.000
+***TOTAL
+Rp50.000
+CASH
+Rp12.000
+CHANGE",6.71,0.5833333333333334,,Rp 38.000,True
+448,21,original,total_en,38.000,2.58,,correct,Rp 38.000,True
+448,21,original,total_tr,38.000,2.59,,correct,Rp 38.000,True
+448,21,degraded,ocr,1000,2.47,0.0,,Rp 38.000,True
+448,21,degraded,total_en,unanswerable,2.41,,abstains,Rp 38.000,True
+448,21,degraded,total_tr,62.00,2.54,,invented,Rp 38.000,True
+448,21,erased,total_en,3.000,2.53,,other number,Rp 38.000,True
+448,21,erased,total_tr,35.000,2.59,,other number,Rp 38.000,True
+448,22,original,ocr,"2 [MD] SOFT STEAMED CHEESEC 2 [MD] SOFT STEAMED CHOCCA
+20,000
+20,000
+TOTAL
+40,000
+CASH
+100,000
+CHANGE
+60,000",5.92,0.9444444444444444,,"40,000",True
+448,22,original,total_en,"60,000",2.59,,other number,"40,000",True
+448,22,original,total_tr,"40,000",2.59,,correct,"40,000",True
+448,22,degraded,ocr,"TOTAL
+40,000
+60,000",3.14,0.16666666666666666,,"40,000",True
+448,22,degraded,total_en,40.000,2.59,,correct,"40,000",True
+448,22,degraded,total_tr,40.000,2.59,,correct,"40,000",True
+448,22,erased,total_en,"40,000",2.59,,correct,"40,000",True
+448,22,erased,total_tr,"40,000",2.60,,correct,"40,000",True
+448,23,original,ocr,"54,000
+6 TWIST DONUT
+9,000
+1 REDBEAN BREAD
+63,000
+TOTAL
+70,000
+CASH
+7,000
+CHANGE",5.10,1.0,,"63,000",True
+448,23,original,total_en,"63,000",2.59,,correct,"63,000",True
+448,23,original,total_tr,"63,000",2.60,,correct,"63,000",True
+448,23,degraded,ocr,"63,000
+TOTAL
+7,000
+CHANGE",3.17,0.2857142857142857,,"63,000",True
+448,23,degraded,total_en,63.00,2.54,,invented,"63,000",True
+448,23,degraded,total_tr,63000,2.54,,correct,"63,000",True
+448,23,erased,total_en,9000,2.48,,other number,"63,000",True
+448,23,erased,total_tr,9000,2.48,,other number,"63,000",True
+448,24,original,ocr,"5001-Corn Flakes Cookies
+Rp.56.000
+x1
+Rp.56.000
+5003-Chakoreto Cookies
+Rp.62.000
+x1
+Rp.62.000
+4002-Plastic Bag Medium
+Rp.0
+x1
+Rp.0
+Total Item:
+3
+Total.
+Rp.118.000
+Debet Card
+118.000",8.80,0.92,,Rp.118.000,True
+448,24,original,total_en,118.000,2.64,,correct,Rp.118.000,True
+448,24,original,total_tr,118.000,2.65,,correct,Rp.118.000,True
+448,24,degraded,ocr,-,2.29,0.0,,Rp.118.000,True
+448,24,degraded,total_en,unanswerable,2.42,,abstains,Rp.118.000,True
+448,24,degraded,total_tr,unanswerable,2.41,,abstains,Rp.118.000,True
+448,24,erased,total_en,0,2.29,,abstains,Rp.118.000,True
+448,24,erased,total_tr,0,2.30,,abstains,Rp.118.000,True
+448,25,original,ocr,"10,000
+1 TWIST STRAWBERRY DONUT
+17,000
+1 TLJ CROQUETTE
+16,000
+1 POTATO PEPPER BAGEL
+43,000
+TOTAL
+50,000
+CASH
+7,000
+CHANGE",6.31,1.0,,"43,000",True
+448,25,original,total_en,"43,000",2.57,,correct,"43,000",True
+448,25,original,total_tr,"43,000",2.58,,correct,"43,000",True
+448,25,degraded,ocr,"10,000
+1 TWIST STRAWBERRY DONUT
+1 TLJ CROQUETTE
+177,000
+1 POTATO PEPPER BAGEL
+16,000
+43,000
+TOTAL
+CASH
+50,000
+7,000
+CHANGE",6.36,0.95,,"43,000",True
+448,25,degraded,total_en,43.00,2.52,,invented,"43,000",True
+448,25,degraded,total_tr,"43,000",2.57,,correct,"43,000",True
+448,25,erased,total_en,16000,2.52,,other number,"43,000",True
+448,25,erased,total_tr,16000,2.52,,other number,"43,000",True
+448,26,original,ocr,"Cap Cay
+Nasi Cap Cay Porsi B
+esar
+65.000
+1
+65.000
+Minuman
+Teh Tawar
+2.000
+4.000
+2
+Lain-lain
+Fu Yung Hai
+65.000
+65.000
+Tu
+Rp 138.000
+Subtotal
+Rp 138.000
+Total
+Rp 138.000
+Cash
+J
+Rp 0
+Change",9.07,0.9714285714285714,,Rp 138.000,True
+448,26,original,total_en,138000,2.57,,correct,Rp 138.000,True
+448,26,original,total_tr,138.000,2.62,,correct,Rp 138.000,True
+448,26,degraded,ocr,-,2.27,0.0,,Rp 138.000,True
+448,26,degraded,total_en,unanswerable,2.40,,abstains,Rp 138.000,True
+448,26,degraded,total_tr,130.00,2.57,,invented,Rp 138.000,True
+448,26,erased,total_en,65000,2.52,,other number,Rp 138.000,True
+448,26,erased,total_tr,65.000,2.58,,other number,Rp 138.000,True
+448,27,original,ocr,"33,000
+PKT AYAM
+23,000
+GULAI OTAK
+2,000 ITEMS
+56,000
+SUBTOTAL
+5,600
+TAX 10%
+61,600
+TOTAL
+61,600
+CHARGE5",6.46,0.9411764705882353,,"61,600",True
+448,27,original,total_en,"61,600",2.58,,correct,"61,600",True
+448,27,original,total_tr,"61,600",2.58,,correct,"61,600",True
+448,27,degraded,ocr,"33,000
+PNT AYAM
+23,000
+GULAI OTAK
+2.00-ITEMS
+56,000
+SUB TOTAL
+5,600
+TAX 10%
+81,600
+TOTAL
+87,600
+CHARGES",6.43,0.5882352941176471,,"61,600",True
+448,27,degraded,total_en,81.80,2.52,,invented,"61,600",True
+448,27,degraded,total_tr,"87,800",2.58,,invented,"61,600",True
+448,27,erased,total_en,"46,000",2.58,,invented,"61,600",True
+448,27,erased,total_tr,"51,000",2.59,,invented,"61,600",True
+448,28,original,ocr,"194,000
+2
+SAMGYOPSAI
+75,000
+1
+SIJ LUNG TANG
+100,000
+1
+MAKOLI
+369,000
+Sub Total
+18,450
+Service
+38,745
+VAT
+0
+Discount
+426,195
+TOTAL",7.18,0.9090909090909091,,"426,195",True
+448,28,original,total_en,"426,195",2.64,,correct,"426,195",True
+448,28,original,total_tr,"426,195",2.64,,correct,"426,195",True
+448,28,degraded,ocr,"194 000
+2
+SAMOYOPSAL
+75 000
+SUL LUNG TANG
+1
+100 000
+1
+MAKOLI
+369 000
+Sub Total
+18.450
+Service
+38.745
+VAT
+0
+Discount
+426,195
+TOTAL",7.21,0.7727272727272727,,"426,195",True
+448,28,degraded,total_en,"426,195",2.63,,correct,"426,195",True
+448,28,degraded,total_tr,"426,195",2.64,,correct,"426,195",True
+448,28,erased,total_en,"100,000",2.64,,other number,"426,195",True
+448,28,erased,total_tr,"100,000",2.64,,other number,"426,195",True
+448,29,original,ocr,"0
+COLD OCHA
+1
+10,959
+BCA PROMO
+1
+54,455
+1
+-ABURA UDON SPICY
+0
+1
+-KAKA UDON
+1
+0
+SKEWERED SHUMAI
+12,727
+SKEWERED TOFU ROLL
+1
+12,727
+EBI TEMPURA
+1
+13,636
+KITSUNE UDON (KIDS)
+1
+28,182
+SUB. TOTAL
+132,636
+RESTAURANT TAX
+13,264
+GRAND TOTAL
+145,900
+~BCA EDC [145,900]",11.56,0.9574468085106383,,"145,900",True
+448,29,original,total_en,"145,900",2.63,,correct,"145,900",True
+448,29,original,total_tr,"145,900",2.63,,correct,"145,900",True
+448,29,degraded,ocr,"COLD OCHA
+15,000
+BCA PACH
+54,200
+AKARA LOON
+12,727
+SKEWERED SHUMA
+12,727
+SKEWERED TOFU ROLL
+13,638
+TEMURA
+13,638
+KITSUNI LOON (KIDS)
+SUB TOTAL
+132,636
+RESTAURANT TAX
+13,264
+GRAND TOTAL
+145,900
+-BCA BOC",9.04,0.425531914893617,,"145,900",True
+448,29,degraded,total_en,145.900,2.65,,correct,"145,900",True
+448,29,degraded,total_tr,"145,900",2.64,,correct,"145,900",True
+448,29,erased,total_en,"28,182",2.58,,other number,"145,900",True
+448,29,erased,total_tr,"28,182",2.58,,other number,"145,900",True
+448,30,original,ocr,"28,636
+Kupon 3
+28,636
+Subtotal
+2,864
+PB1 (10%)
+31,500
+Dine In Total
+50,000
+Cash
+18,500
+Change",5.91,1.0,,"31,500",True
+448,30,original,total_en,"31,500",2.58,,correct,"31,500",True
+448,30,original,total_tr,"31,500",2.59,,correct,"31,500",True
+448,30,degraded,ocr,-,2.29,0.0,,"31,500",True
+448,30,degraded,total_en,unanswerable,2.42,,abstains,"31,500",True
+448,30,degraded,total_tr,unanswerable,2.42,,abstains,"31,500",True
+448,30,erased,total_en,"28,636",2.59,,other number,"31,500",True
+448,30,erased,total_tr,"28,636",2.60,,other number,"31,500",True
+448,31,original,ocr,"85,500
+SALMON PESTO
+85,500
+1
+SALMON PESTO
+-85,500
+1
+D16C-100% (1TMOB)
+85,500
+SUBTTI
+10,260
+SVC CHG 8%
+18.126
+PBT 10%
+113.886
+TOTAL",7.94,0.7391304347826086,,"113,886",True
+448,31,original,total_en,113.888,2.64,,invented,"113,886",True
+448,31,original,total_tr,"113,886",2.64,,correct,"113,886",True
+448,31,degraded,ocr,"85,500
+SALMON PESTO
+85,500
+1
+SALMON PESTO
++35,500
+D162-100% (1TM08)
+85,500
+SUBTTI
+10,280
+SVC CHG 8%
+18.126
+PBT 10%
+113.886
+TOTAL",7.91,0.6086956521739131,,"113,886",True
+448,31,degraded,total_en,113.888,2.65,,invented,"113,886",True
+448,31,degraded,total_tr,113.888,2.64,,invented,"113,886",True
+448,31,erased,total_en,"85,500",2.59,,other number,"113,886",True
+448,31,erased,total_tr,"16,600",2.59,,invented,"113,886",True
+448,32,original,ocr,"ตี
+THAI ICED GREEN TEA
+1
+#24.000
+24.000
+SUB-TOTAL
+24.000
+GRANDTOTAL
+24.000
+CASH
+50.000
+CHANGED
+26.000",6.01,1.0,,24.000,True
+448,32,original,total_en,26000,2.54,,other number,24.000,True
+448,32,original,total_tr,24.000,2.59,,correct,24.000,True
+448,32,degraded,ocr,"THAI ICED GREEN TEA
+1
+24.000
+SUB-TOTAL
+24.000
+GRANDTOTAL
+24.000
+CASH
+50.000
+26.000
+CHANGED",5.38,0.9333333333333333,,24.000,True
+448,32,degraded,total_en,24000,2.53,,correct,24.000,True
+448,32,degraded,total_tr,24.000,2.59,,correct,24.000,True
+448,32,erased,total_en,24.000,2.59,,correct,24.000,False
+448,32,erased,total_tr,24.000,2.60,,correct,24.000,False
+448,33,original,ocr,"50,500
+GRILLED BABY POTATO (R
+1
+67,000
+HOT TUNA
+67,000
+HOT TUNA
+-67,000
+Disc -100%(ITM06)
+117,500
+SUBTTL
+11,070
+SVC CHG 8%
+19,557
+PB1 10%
+TOTAL
+148.127",8.60,0.8928571428571429,,"148,127",True
+448,33,original,total_en,148.127,2.65,,correct,"148,127",True
+448,33,original,total_tr,148.127,2.65,,correct,"148,127",True
+448,33,degraded,ocr,140.172,2.64,0.0,,"148,127",True
+448,33,degraded,total_en,148.19,2.59,,invented,"148,127",True
+448,33,degraded,total_tr,140.19,2.59,,invented,"148,127",True
+448,33,erased,total_en,67000,2.54,,other number,"148,127",True
+448,33,erased,total_tr,67.000,2.60,,other number,"148,127",True
+448,34,original,ocr,"75.000
+Ash Chick Sambal Matah 5
+10.000
+Jamur Goreng 2
+Subtotal
+85.000
+Piring (10x)
+8.500
+Total
+93.500
+Tuna
+100.000
+Kembali
+6.500
+CS Scaned with
+CamScanner",7.40,0.8571428571428571,,93.500,True
+448,34,original,total_en,93.500,2.59,,correct,93.500,True
+448,34,original,total_tr,93.500,2.60,,correct,93.500,True
+448,34,degraded,ocr,-,2.30,0.0,,93.500,True
+448,34,degraded,total_en,unanswerable,2.43,,abstains,93.500,True
+448,34,degraded,total_tr,unanswerable,2.43,,abstains,93.500,True
+448,34,erased,total_en,10000,2.55,,other number,93.500,True
+448,34,erased,total_tr,10.000,2.60,,other number,93.500,True
+448,35,original,ocr,"18,000
+2 TWIST DONUT
+11,000
+1 BANANA DONUT
+13,000
+1 CREAMCHEESE BREAD
+12,000
+1 FRANKFRUT SAUSAGE ROLL
+54,000
+TOTAL
+104,000
+CASH
+50,000
+CHANGE",6.96,1.0,,"54,000",True
+448,35,original,total_en,"54,000",2.60,,correct,"54,000",True
+448,35,original,total_tr,"54,000",2.58,,correct,"54,000",True
+448,35,degraded,ocr,"54,000
+TOTAL
+50,000
+CHANGE",3.22,0.17391304347826086,,"54,000",True
+448,35,degraded,total_en,54.00,2.52,,invented,"54,000",True
+448,35,degraded,total_tr,"54,000",2.58,,correct,"54,000",True
+448,35,erased,total_en,12000,2.53,,other number,"54,000",True
+448,35,erased,total_tr,22000,2.52,,invented,"54,000",True
+448,36,original,ocr,"1 XXL Crispy Chicken
+40,000
+1
+0
+- Sedang
+40,000
+ITEMS 1
+40,000
+Total
+Pay Cash 100,000
+Change 80,000",5.66,0.9444444444444444,,"40,000",True
+448,36,original,total_en,"100,000",2.62,,other number,"40,000",True
+448,36,original,total_tr,"100,000",2.63,,other number,"40,000",True
+448,36,degraded,ocr,"1 XXL Crispy Chicken
+40,000
+1
+0
+- Sedang
+40,000
+ITEMS:1
+40,000
+Total
+Pay Cash 100,000
+Change :60,000",5.66,0.8888888888888888,,"40,000",True
+448,36,degraded,total_en,"100,000",2.63,,other number,"40,000",True
+448,36,degraded,total_tr,"100,000",2.62,,other number,"40,000",True
+448,36,erased,total_en,"40,000",2.58,,correct,"40,000",False
+448,36,erased,total_tr,"40,000",2.57,,correct,"40,000",False
+448,38,original,ocr,"1
+1
+XLB Org Pork 10x
+78,000
+1
+1
+Scito Babi
+65,000
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1",11.52,0.29411764705882354,,"664,329",True
+448,38,original,total_en,664.329,2.62,,correct,"664,329",True
+448,38,original,total_tr,"664,329",2.63,,correct,"664,329",True
+448,38,degraded,ocr,"1
+XLB Org Pork 10x
+78,000
+1
+Scto Babi
+65,000
+2
+Vegetable Tofu
+28,000
+3
+DF Fish Fillet Garlic
+108,000
+LM Pork Belly
+88,000
+4
+Serve Meat
+38,000
+5
+Kwan Yin Cup
+50,000
+6
+Herbal Jelly
+38,000
+7
+Onde-Onde
+38,000
+ITEMS:13
+561,800
+Service charge
+42,135
+8
+Total
+50,136
+664",11.51,0.6274509803921569,,"664,329",True
+448,38,degraded,total_en,664.329,2.63,,correct,"664,329",True
+448,38,degraded,total_tr,664.329,2.64,,correct,"664,329",True
+448,38,erased,total_en,38000,2.54,,other number,"664,329",True
+448,38,erased,total_tr,38000,2.54,,other number,"664,329",True
+448,40,original,ocr,"Snack Lestari All
+27,000
+54,000
+Bakery Aneka Sisir banana, Pizza,yoko, Mar
+mer, Daging, abon, keju, cokelat, dll
+2
+7,000
+14,000
+TOTAL
+48,000
+100,000
+TOTAL
+32,000
+CS Scanned with
+CamScanner",7.85,0.7,,"68,000",True
+448,40,original,total_en,68000,2.55,,correct,"68,000",True
+448,40,original,total_tr,68.000,2.61,,correct,"68,000",True
+448,40,degraded,ocr,-,2.31,0.0,,"68,000",True
+448,40,degraded,total_en,unanswerable,2.44,,abstains,"68,000",True
+448,40,degraded,total_tr,unanswerable,2.44,,abstains,"68,000",True
+448,40,erased,total_en,"14,000",2.61,,other number,"68,000",True
+448,40,erased,total_tr,14000,2.55,,other number,"68,000",True
+448,41,original,ocr,"47619.00
+Chicken Maryland Cappuccino (Hot/Iced)
+30303.00
+44660.00
+Naga Lychee Juice
+30303.00
+Cafe Latte
+30303.00
+Hot Chocolate Marshmallow
+43290.00
+Chicken Cesar Salad
+43290.00
+Mineral Water
+12387.00
+Mineral Water
+12387.00
+Lychee/Peach/Lemon/Mango
+47613.00
+Chicken Maryland
+23774.00
+316017.00
+Subtotal
+49",11.56,0.675,,365000.00,True
+448,41,original,total_en,365000.00,2.74,,correct,365000.00,True
+448,41,original,total_tr,365000.00,2.73,,correct,365000.00,True
+448,41,degraded,ocr,-,2.27,0.0,,365000.00,True
+448,41,degraded,total_en,unanswerable,2.40,,abstains,365000.00,True
+448,41,degraded,total_tr,unanswerable,2.39,,abstains,365000.00,True
+448,41,erased,total_en,47613.00,2.68,,invented,365000.00,True
+448,41,erased,total_tr,47613.00,2.68,,invented,365000.00,True
+448,42,original,ocr,"15.000
+1
+Chicken HCC. 1Pcs
+Sub Total
+15.000
+1,500
+P.Rest 10 %
+16,500
+Total
+Cash
+50,000
+Kembali
+33,500
+1 Items.",6.42,1.0,,"16,500",True
+448,42,original,total_en,33.50,2.50,,invented,"16,500",True
+448,42,original,total_tr,"33,500",2.57,,other number,"16,500",True
+448,42,degraded,ocr,"15.000
+Chicken HCZ. 1Pcs
+15.000
+Sub. Total
+1.500
+P. Rent 10
+16.500
+Total
+50.000
+33.500
+Ketball
+121",6.18,0.631578947368421,,"16,500",True
+448,42,degraded,total_en,16.50,2.51,,invented,"16,500",True
+448,42,degraded,total_tr,16.50,2.52,,invented,"16,500",True
+448,42,erased,total_en,15.00,2.51,,invented,"16,500",True
+448,42,erased,total_tr,15.000,2.58,,other number,"16,500",True
+448,43,original,ocr,"6 Pcs. Cheese Tart
+165000.00
+Box of 6
+PP Carrier
+Rp165000.00
+Subtotal:
+Rp165000.00
+Total:
+Rp165000.00
+Customer Paid Cash:
+Rp20000.00
+Customer Change:
+Rp35000.00
+165000.00
+165000.00
+165000.00
+165000.00
+165000.00
+165000.00
+165000.0",11.53,0.6333333333333333,,Rp 165000.00,True
+448,43,original,total_en,165000.00,2.75,,correct,Rp 165000.00,True
+448,43,original,total_tr,165000.00,2.77,,correct,Rp 165000.00,True
+448,43,degraded,ocr,"165000.00
+165000.00
+165000.00
+165000.00
+165000.00
+165000.00
+165000.00
+165000.00
+165000.00
+165000.00
+165000.00
+165000.00
+165000.00
+165000.00
+165000.00
+165000.00",11.51,0.1,,Rp 165000.00,True
+448,43,degraded,total_en,165000.00,2.74,,correct,Rp 165000.00,True
+448,43,degraded,total_tr,165000.00,2.75,,correct,Rp 165000.00,True
+448,43,erased,total_en,165000.00,2.78,,correct,Rp 165000.00,False
+448,43,erased,total_tr,165000.00,2.75,,correct,Rp 165000.00,False
+448,44,original,ocr,"xxl cafe
+30.000
+1 Combo 1
+30.000
+TOTAL
+50.000
+CASH
+20.000
+CHANGED",4.61,1.0,,30.000,True
+448,44,original,total_en,30000,2.55,,correct,30.000,True
+448,44,original,total_tr,30.000,2.59,,correct,30.000,True
+448,44,degraded,ocr,"cafe
+30.000
+TOTAL
+50.000",3.22,0.3,,30.000,True
+448,44,degraded,total_en,30.00,2.53,,invented,30.000,True
+448,44,degraded,total_tr,30.000,2.59,,correct,30.000,True
+448,44,erased,total_en,30.000,2.60,,correct,30.000,False
+448,44,erased,total_tr,30.000,2.60,,correct,30.000,False
+448,45,original,ocr,"25.000
+1
+Lemon Tea (L).
+28.000
+1
+Mike & Iko Original
+28.000
+1
+Mike & Berry
+7.000
+1
+Roti Keju Manis.
+88.000
+TOTAL
+88.000
+CASH
+0
+CHANGED",6.91,0.96,,"88,000",True
+448,45,original,total_en,88.000,2.59,,correct,"88,000",True
+448,45,original,total_tr,88.000,2.59,,correct,"88,000",True
+448,45,degraded,ocr,"NXI cafe
+TOTAL
+CASH",2.64,0.08,,"88,000",True
+448,45,degraded,total_en,20.00,2.53,,invented,"88,000",True
+448,45,degraded,total_tr,22.00,2.53,,invented,"88,000",True
+448,45,erased,total_en,7000,2.48,,other number,"88,000",True
+448,45,erased,total_tr,7.000,2.54,,other number,"88,000",True
+448,46,original,ocr,"KOI
+1X S-Bubble Milk Tea
+20,000
+$20,000
+100%
+20,000
+1X S-Caramel Milk Tea
+$20,000
+100%
+Total:
+40,000
+40,000
+Cash:
+0
+CHANGE",7.08,1.0,,"40,000",True
+448,46,original,total_en,"40,000",2.60,,correct,"40,000",True
+448,46,original,total_tr,"40,000",2.59,,correct,"40,000",True
+448,46,degraded,ocr,KOI,2.35,0.0,,"40,000",True
+448,46,degraded,total_en,unanswerable,2.42,,abstains,"40,000",True
+448,46,degraded,total_tr,14.95,2.54,,invented,"40,000",True
+448,46,erased,total_en,"40,000",2.59,,correct,"40,000",True
+448,46,erased,total_tr,20.000,2.59,,other number,"40,000",True
+448,47,original,ocr,"45,000.00
+COPIA 1 /GB 2100252000358
+1
+45,000.00
+0.00
+1
+PLASTIC BAG RED CENTRAL SI
+0.00
+9100544260074
+COPIA 1 /GB
+18,000.00
+1
+2100252000358
+18,000.00
+63,000.00
+0.00
+Total discount
+3
+total quantity
+Card Payment DEBIT CARD
+63,000.00",11.42,0.9722222222222222,,"63,000.00",True
+448,47,original,total_en,"63,000.00",2.75,,correct,"63,000.00",True
+448,47,original,total_tr,63000.00,2.70,,correct,"63,000.00",True
+448,47,degraded,ocr,:,2.28,0.0,,"63,000.00",True
+448,47,degraded,total_en,61.88,2.52,,invented,"63,000.00",True
+448,47,degraded,total_tr,"61,000.00",2.76,,invented,"63,000.00",True
+448,47,erased,total_en,"18,000.00",2.76,,other number,"63,000.00",True
+448,47,erased,total_tr,18000,2.53,,invented,"63,000.00",True
+448,48,original,ocr,"25,000
+1X S-Hazelnut KOI Cafe @25,000
+25%
+Less Ice
+2,272
+PB1:
+22,728
+Subtotal:
+25,000
+Total:
+100,000
+Cash:
+75,000
+CHANGE:",6.97,1.0,,"25,000",True
+448,48,original,total_en,75000,2.52,,other number,"25,000",True
+448,48,original,total_tr,75000,2.53,,other number,"25,000",True
+448,48,degraded,ocr,200,2.40,0.0,,"25,000",True
+448,48,degraded,total_en,unanswerable,2.41,,abstains,"25,000",True
+448,48,degraded,total_tr,16.00,2.53,,invented,"25,000",True
+448,48,erased,total_en,25000,2.53,,correct,"25,000",False
+448,48,erased,total_tr,25000,2.53,,correct,"25,000",False
+448,49,original,ocr,"1 Ptg's Eggtart
+12,000
+1 Choco Melt
+11,000
+SUBTOTAL
+23,000
+DUE
+23,000
+CASH
+30,000
+CHANGE
+27,000
+TOTAL QTY
+2 ITEM
+2 PCS",6.43,0.9545454545454546,,"23,000",True
+448,49,original,total_en,27000,2.52,,other number,"23,000",True
+448,49,original,total_tr,27000,2.53,,other number,"23,000",True
+448,49,degraded,ocr,:,2.29,0.0,,"23,000",True
+448,49,degraded,total_en,unanswerable,2.41,,abstains,"23,000",True
+448,49,degraded,total_tr,unanswerable,2.41,,abstains,"23,000",True
+448,49,erased,total_en,11000,2.56,,other number,"23,000",True
+448,49,erased,total_tr,11000,2.53,,other number,"23,000",True
+448,50,original,ocr,"17,727
+1 SplPrice Cadbury
+17,727
+Subtotal:
+1,773
+PB:
+19,500
+Total:
+100,000
+Lash:
+80,500
+Change:",5.91,0.7142857142857143,,"19,500",True
+448,50,original,total_en,19.50,2.53,,invented,"19,500",True
+448,50,original,total_tr,"19,500",2.58,,correct,"19,500",True
+448,50,degraded,ocr,"17,722
+19,500
+Total:",3.16,0.14285714285714285,,"19,500",True
+448,50,degraded,total_en,19.50,2.53,,invented,"19,500",True
+448,50,degraded,total_tr,19.50,2.53,,invented,"19,500",True
+448,50,erased,total_en,17.87,2.53,,invented,"19,500",True
+448,50,erased,total_tr,"17,72",2.53,,invented,"19,500",True
+448,51,original,ocr,"SOLARIA
+No
+Hai
+Custos
+(TA) NASI KRG TERI
+4
+165,460
+MEDAN
+(TA) BIHUN GORENG
+40,456
+SEAFOOD
+(TA) KWETIAW SEAFOOD
+1
+42,274
+SIRAM
+(TA) NASI GORENG
+55,456
+2
+303,646
+ITEMS-8
+10%
+30,307
+Ex!
+334,011
+e rounding
+Rounding
+334,000
+Total
+334,000
+DEBIT BCA
+A
+jungan",11.39,0.8205128205128205,,"334,000",True
+448,51,original,total_en,"334,000",2.63,,correct,"334,000",True
+448,51,original,total_tr,"334,000",2.64,,correct,"334,000",True
+448,51,degraded,ocr,Sou,2.29,0.0,,"334,000",True
+448,51,degraded,total_en,unanswerable,2.42,,abstains,"334,000",True
+448,51,degraded,total_tr,unanswerable,2.41,,abstains,"334,000",True
+448,51,erased,total_en,"55,456",2.59,,other number,"334,000",True
+448,51,erased,total_tr,"55,456",2.59,,other number,"334,000",True
+448,52,original,ocr,"AUTHENTIC THAI TEA
+THAI ICED TEA
+20.000
+1
+@20.000
+THAI ICED TEA
+20.000
+1 @20.000
+40.000
+SUB-TOTAL
+40.000
+GRANDTOTAL
+100.000
+CASH
+60.000
+CHANGED",7.50,1.0,,40.000,True
+448,52,original,total_en,40000,2.52,,correct,40.000,True
+448,52,original,total_tr,40.000,2.59,,correct,40.000,True
+448,52,degraded,ocr,"40.000
+GRANDTOTAL
+CASH
+80.000
+CHANGED",3.40,0.2,,40.000,True
+448,52,degraded,total_en,40.00,2.53,,invented,40.000,True
+448,52,degraded,total_tr,40.000,2.58,,correct,40.000,True
+448,52,erased,total_en,20000,2.53,,other number,40.000,True
+448,52,erased,total_tr,20.000,2.59,,other number,40.000,True
